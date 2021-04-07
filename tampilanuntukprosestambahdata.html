@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><b>DATA MAHASISWA PENS</b></p>
+    <p><b>===========================</b></p>
+    <p><b>TAMBAH DATA</b><p>
+    <form action="menyimpandata.php" method="POST" enctype="multipart/form-data">
+        <p><b>NRP : <input type="text" name="nrp"></b></p>
+        <p><b>Nama : <input type="text" name="nama"></b></p>
+        <p><b>Alamat: <input type="text" name="alamat"></b></p>
+        <p><b>Foto : <input type="file" name="foto" id="FileToUpload"></b></p>
+        <p><b>Jurusan :</b>
+            <select name="jurusan">
+                <option value="111">Telekomunikasi</option>
+                <option value="222">Elektronika</option>
+                <option value="333">Elektro Industri</option>
+                <option value="444">Informatika</option>
+            </select>
+        </p>
+        <input type="Submit" value="Tambahkan Data">
+    </form>
+</body>
+</html>
