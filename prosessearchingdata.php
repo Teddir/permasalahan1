@@ -26,7 +26,7 @@
             echo $hasil[2];
             echo "<br>";
             echo "Foto : ";
-            echo "<img src='\image\Databasefoto1'";
+            echo "<img src='\Databasefoto1'";
         }
     }
     ?>
